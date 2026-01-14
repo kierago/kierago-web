@@ -1,0 +1,104 @@
+body {
+  background: #0b1040;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  background-image: url("bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.profile-card {
+  background: rgba(45,45,60,0.85);
+  backdrop-filter: blur(8px);
+  width: 350px;
+  padding: 30px;
+  border-radius: 16px;
+  text-align: center;
+  color: #eee;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.avatar img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #7096ff;
+}
+
+h1 {
+  margin: 5px 0 5px;
+  color: #7096ff;
+}
+
+.title {
+  font-size: 14px;
+  color: #b2b2cc;
+}
+
+.bio {
+  margin: 15px 0;
+  line-height: 1.5;
+}
+
+.links {
+  margin-top: 5px;
+}
+
+.icon-link img {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.icon-link {
+text-decoration: none;
+}
+
+.icon-link:hover img {
+  transform: scale(1.1);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.button-link {
+  display: inline-block;
+}
+
+.button-link img {
+  height: 31px; 
+  display: block;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button-link:hover img {
+  transform: scale(1.15);
+  box-shadow: 0 0 8px rgba(6, 163, 207, 0.5);
+}
+
+.static-button {
+  height: 31px;
+}
+
+.static-button:hover img {
+  transform: scale(1.1);
+  filter: brightness(1.3);
+}
+
+
