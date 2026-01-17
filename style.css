@@ -70,12 +70,19 @@ text-decoration: none;
   transform: scale(1.1);
 }
 
+.button-text {
+  margin-top: 0px;
+  font-size: 10px;
+  color: #679ba3;
+}
+
+
 .buttons {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 5px;
-  margin-top: 5px;
+  margin-top: 0px;
 }
 
 .button-link {
