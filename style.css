@@ -113,9 +113,30 @@ text-decoration: none;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.extra {
-  margin-top: 5px;
+.disclaim {
+  margin-top: 10px; 
   font-size: 10px;
   color: #679ba3;
+  display: block;   
+  width: 100%;     
 }
 
+.forum-btn {
+  display: inline-block;
+  background: #679ba3;
+  color: #0b1040 !important;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #8abcd7;
+  transition: all 0.2s ease;
+  margin-top: 1px; 
+}
+
+.forum-btn:hover {
+  background: #8abcd7;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
