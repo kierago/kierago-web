@@ -108,11 +108,3 @@ text-decoration: none;
   box-shadow: 0 0 8px rgba(6, 163, 207, 0.5);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-
-.disclaim {
-  margin-top: 30px; 
-  font-size: 10px;
-  color: #679ba3;
-  display: block;   
-  width: 100%;     
-}
